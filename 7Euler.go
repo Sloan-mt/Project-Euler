@@ -32,7 +32,7 @@ func findPrime(num int) bool {
 
 func main() {
 	//counter starts at 1 to catch 2 as a prime number
-	counter := 0
+	counter := 1
 	i := 1
 	for {
 		if findPrime(i) == true {
